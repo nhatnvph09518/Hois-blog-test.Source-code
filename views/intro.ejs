@@ -1,0 +1,100 @@
+<div class="container" style="border: 1px solid gray; border-radius: 20px;">
+    <div class="intro">
+        <h2>Introduce</h2>
+    </div>
+    <div class="intro-content">
+        <img id="ava"
+            src="https://scontent-hkt1-1.xx.fbcdn.net/v/t1.0-9/76693386_1013945698955305_4592078049612136448_o.jpg?_nc_cat=106&_nc_sid=174925&_nc_ohc=NlrRR85gi_EAX8TK7af&_nc_ht=scontent-hkt1-1.xx&oh=af251a49f7f7ed6850a6031971abb084&oe=5F65F34A"
+            alt="avt">
+        <p id="intro-p">I'm a student at <i>Hanoi University of Science and Technology</i></p>
+        <div class="clearfix"></div>
+        <ul class="list-info">
+            <li> <i class="fas fa-check list-item"></i><span><strong>Name:</strong> Nguyễn Ngọc Hưng</span>
+            </li>
+            <li> <i class="fas fa-check list-item"></i><span><strong>Date of Birth:</strong> Jan, 8th</span>
+            </li>
+            <li> <i class="fas fa-check list-item"></i><span><strong>Favorite:</strong> Music, Painting,
+                    Coding, ...</span> </li>
+        </ul>
+    </div>
+    <style>
+        .intro {
+            text-align: center;
+            background-color: thistle;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border-radius: 20px;
+        }
+
+        #ava {
+            width: 40%;
+            position: relative;
+            float: left;
+            /* margin-left: -8px; */
+            margin-right: 8px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        #intro-p {
+            width: 60%;
+            position: relative;
+            float: left;
+            margin-right: -8px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+        }
+
+        .clearfix {
+            content: " ";
+            display: table;
+            clear: both;
+        }
+
+        .list-info {
+            list-style: none;
+            margin-left: -30px;
+        }
+
+        .list-info li span {
+            font-size: 90%;
+        }
+
+        .list-item {
+            font-size: 110%;
+            margin-right: 10px;
+        }
+
+        @media screen and (max-width: 995px) {
+            #ava {
+                width: 50%;
+                margin-left: 25%;
+                margin-bottom: 10px;
+            }
+
+            #intro-p {
+                width: 100%;
+                font-size: 250%;
+                text-align: center;
+            }
+
+            .intro h2 {
+                font-size: 300%;
+            }
+
+            .list-info li span {
+                font-size: 200%;
+            }
+
+            .list-item {
+                font-size: 300%;
+                margin-right: 30px;
+            }
+
+
+        }
+    </style>
+    <br>
+</div>
+<br>

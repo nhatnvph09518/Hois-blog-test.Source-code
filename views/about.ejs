@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <%- include ("./head.ejs")%>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <%- include ("./header.ejs")%>
+    </header>
+    <div class="container content-section">
+        <div class="row">
+            <div class="col-lg-3">
+                <%- include ("./intro.ejs")%>
+            </div>
+            <div class="col-lg-9">
+                <div class="content">
+                    <img class="about-img"
+                        src="https://raw.githubusercontent.com/HungNguyen81/test.express.server/master/img/about-img.png"
+                        alt="about me">
+                    <style>
+                        .content {
+                            position: relative;
+                            background-color: silver;
+                            border-radius: 20px;
+                        }
+
+                        .about-img {
+                            width: 300px;
+                            border-radius: 50%;
+                            border: 5px solid #15ace7;
+                            position: relative;
+                            left: 50%;
+                            margin-top: 50px;
+                            transform: translate(-50%, 0);
+                        }
+
+                        #about {
+                            background-color: teal;
+                        }
+                    </style>
+                    <h1 style="text-align: center; padding: 20px;">About me</h1>
+                    <hr>
+                    <p class="p-content" style="text-align: center; padding: 30px">I'm studying at <i>Hanoi
+                            University
+                            of Science and Technology</i>, my major is
+                        <i><strong>Computer Engineering.</strong></i>Next semester, i'll become a third-year student
+                        with my current CPA 3.20.
+                        <br>
+                    </p>
+                    <div class="container-fluid skill">
+                        <h2 style="text-align: center; padding: 20px">My skill in some languges</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-4" style="text-align: right;">
+                                <h4>HTML:</h4>
+                                <h4>CSS :</h4>
+                                <h4>JavaScript :</h4>
+                                <h4>Java :</h4>
+                                <h4>Csharp :</h4>
+                                <h4>SQL :</h4>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="progress" style="margin-top: 5px; margin-bottom: -8px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        style="width: 60%"></div>
+                                </div>
+                                <br>
+                                <div class="progress" style="margin-top: 5px; margin-bottom: -8px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        style="width: 50%"></div>
+                                </div>
+                                <br>
+                                <div class="progress" style="margin-top: 5px; margin-bottom: -8px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        style="width: 30%"></div>
+                                </div>
+                                <br>
+                                <div class="progress" style="margin-top: 5px; margin-bottom: -8px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        style="width: 55%"></div>
+                                </div>
+                                <br>
+                                <div class="progress" style="margin-top: 5px; margin-bottom: -8px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        style="width: 55%"></div>
+                                </div>
+                                <br>
+                                <div class="progress" style="margin-top: 5px; margin-bottom: -8px;">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        style="width: 45%"></div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                        <br>
+                        <hr>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    </div>
+    <footer style="position:relative; bottom: 0;">
+        <%- include ("./footer.ejs")%>
+    </footer>
+    <style>
+        @media screen and (max-width: 995px) {
+            .p-content {
+                font-size: 200%;
+            }
+        }
+    </style>
+</body>
+
+</html>
